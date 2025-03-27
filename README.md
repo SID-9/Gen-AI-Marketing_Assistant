@@ -19,28 +19,14 @@
 - Python 3.x installed
 - [Ollama](https://ollama.ai/) installed for running LLaMA 2 models
 
-### Steps to Run the Project
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/AI-Marketing-Assistant.git
-   cd AI-Marketing-Assistant
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Flask Server**
-   ```bash
-   python app.py
-   ```
-
-4. **Access the Web App**
-   Open your browser and go to:  
-   ```
-   http://127.0.0.1:5000
-   ```
+## steps to run the project
+1. upon installation of faiss and llama2 run these scripts to confirm there proper working:
+  -> faiss_verfification.py
+  -> ollama_verification.py
+2. run the creating_embeddings.py file :
+   -> it will generate embeddins from your stored database in marketing_dataset.csv and save it in faiss.index file
+   -> it will save the original dataset in .pkl format since it is faster than a .csv format to use it as a reference for the llama2 model.
+4. finally run the marketing_assistant.py file to start the web app.
 
 ## 🚀 Usage
 1. Enter your **marketing prompt** (e.g., "an ad for a personalized shoe").
@@ -71,9 +57,6 @@ Want to contribute? Follow these steps:
 3. Commit your changes (`git commit -m 'Added new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a **Pull Request**.
-
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ## 📬 Contact
 - **Author:** Siddharth Upadhyay
