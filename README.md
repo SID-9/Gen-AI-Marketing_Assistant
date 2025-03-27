@@ -51,10 +51,12 @@
 
 ## 🖼️ Screenshots
 ### Marketing Script Example
-![Marketing Script](screenshots/script_example.png)
+![image](https://github.com/user-attachments/assets/dd0f898f-f9ca-49fa-86f9-c30f29732a09)
+
 
 ### Marketing Caption Example
-![Marketing Caption](screenshots/caption_example.png)
+![image](https://github.com/user-attachments/assets/4602b9bf-e6a9-42b1-a6ef-eb5051360337)
+
 
 ## 🎯 Future Enhancements
 - Add **multi-model support** (Mistral, GPT-4, etc.).
